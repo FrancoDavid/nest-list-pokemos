@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
@@ -27,3 +28,6 @@ docker-compose up -d
 
 - Nestjs
 - MongoDb
+=======
+# nest-list-pokemos
+>>>>>>> f029346b08f64cd3cc85a1c668c464c837c2fc8a
