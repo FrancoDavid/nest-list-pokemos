@@ -19,7 +19,7 @@ import { AppConfig } from './config/app.config';
     ServeStaticModule.forRoot({
       rootPath: join(__dirname, '..', 'public'),
     }),
-    MongooseModule.forRoot(AppConfig().mongoDb, {
+    MongooseModule.forRoot(process.env.MONGO_DB ?? '', {
       dbName: 'pokemonsdb',
     }),
 
